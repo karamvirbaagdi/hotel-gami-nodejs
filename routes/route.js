@@ -14,6 +14,7 @@ const productController = require("../controllers/product");
 router.post('/user/delete/', userController.userDelete);
 router.post('/user/register', userController.userRegister);
 router.get('/user/list', userController.userList);
+router.post('/user/login', userController.userLogin);
 
 /************Tags***************/
 
